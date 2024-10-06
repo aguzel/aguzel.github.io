@@ -21,8 +21,8 @@ body {
 }
 
 .sidebar img {
-    width: 70px; /* Adjust the size of the profile picture */
-    height: 108px;
+    width: 120px; /* Adjust the size of the profile picture */
+    height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -45,7 +45,7 @@ body {
 
 /* Section Headings */
 h2 {
-    font-size: 1.3rem; /* Smaller font size for section headings */
+    font-size: 1.6rem; /* Smaller font size for section headings */
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
@@ -75,7 +75,8 @@ h2 {
     margin: 0;
     font-size: 1.1rem; /* Smaller font size for publication titles */
     font-weight: bold;
-    color: #0066cc;
+    font-style:arial;
+    color: #030303;
 }
 
 .publication-item p {
