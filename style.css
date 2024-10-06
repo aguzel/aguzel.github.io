@@ -1,6 +1,6 @@
 /* General Styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Monospace', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f7f7f7;
@@ -21,10 +21,10 @@ body {
 }
 
 .sidebar img {
-    width: 120px; /* Adjust the size of the profile picture */
+    width: 150px; /* Adjust the size of the profile picture */
     height: auto;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .contact-links a {
@@ -45,7 +45,7 @@ body {
 
 /* Section Headings */
 h2 {
-    font-size: 1.6rem; /* Smaller font size for section headings */
+    font-size: 1.25rem; /* Smaller font size for section headings */
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
@@ -55,14 +55,6 @@ h2 {
 .research p {
     font-size: 0.95rem; /* Smaller font size for the research text */
     line-height: 1.5; /* Adequate line height for readability */
-    color: #333;
-}
-
-/* Short CV Section */
-.short-cv p {
-    font-size: 0.95rem; /* Smaller font size for the short CV */
-    font-family: 'Arial', sans-serif;
-    line-height: 1.5;
     color: #333;
 }
 
