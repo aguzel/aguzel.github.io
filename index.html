@@ -9,74 +9,55 @@
 <body>
 
     <div class="container">
-        <!-- Header Section -->
-        <header>
-            <div class="profile-photo">
-                <img src="images/profile.png" alt="Your Profile Picture">
+        <!-- Left column with profile picture and contact info -->
+        <aside class="sidebar">
+            <h1>Your Name</h1>
+            <p><em>PhD student at Your University</em></p>
+            <img src="images/profile.png" alt="Your Profile Picture">
+            
+            <div class="contact-links">
+                <p>
+                    <a href="mailto:your-email@example.com">Email</a> /
+                    <a href="https://scholar.google.com">Scholar</a> /
+                    <a href="https://twitter.com/yourtwitter">Twitter</a> /
+                    <a href="https://linkedin.com/in/yourlinkedin">LinkedIn</a> /
+                    <a href="https://github.com/yourgithub">GitHub</a> /
+                    <a href="cv.pdf" target="_blank">CV</a>
+                </p>
             </div>
-            <div class="name-contact">
-                <h1>Your Name</h1>
-                <p><a href="mailto:your-email@example.com">your-email@example.com</a> | <a href="https://github.com/your-github">git</a> | <a href="https://linkedin.com/in/your-linkedin">linkedin</a></p>
-            </div>
-        </header>
+        </aside>
 
-        <hr>
+        <!-- Main content area -->
+        <main class="main-content">
+            <!-- Research interests -->
+            <section class="research">
+                <h2>Research</h2>
+                <p>I am interested in improving reinforcement learning generalization. I focus on using synthetic data and diffusion models to enhance agent performance in unseen environments, as well as meta-reinforcement learning to develop robust policies.</p>
+            </section>
 
-        <!-- About Section -->
-        <section class="about">
-            <h2>About</h2>
-            <p>I am a PhD student in AI, specializing in open-endedness and reinforcement learning. My research focuses on improving generalization in offline reinforcement learning using data augmentation and diffusion model-based upsampling.</p>
-        </section>
+            <!-- Publications -->
+            <section class="publications">
+                <h2>Selected Publications</h2>
 
-        <hr>
-
-        <!-- News Section -->
-        <section class="news">
-            <h2>News</h2>
-            <ul>
-                <li><strong>[2/2024]</strong> ICLR Paper submitted.</li>
-                <li><strong>[10/2023]</strong> Started UCL AI PhD UCL</li>
-                <li><strong>[9/2023]</strong> news header 1</li>
-            </ul>
-        </section>
-
-        <hr>
-
-        <!-- Conference Papers Section -->
-        <section class="papers">
-            <h2>Conference Papers</h2>
-
-            <div class="paper-item">
-                <img src="images/paper1.jpg" alt="Paper Image 1">
-                <div class="paper-info">
-                    <h3>Synthetic experience replay</h3>
-                    <p>Cong Lu*, Philip J. Ball*, Yee Whye Teh, <strong>Your Name</strong></p>
-                    <p><em>Advances in Neural Information Processing Systems (NeurIPS), 2023</em></p>
-                    <p><a href="link-to-paper-1">Paper</a> | <a href="link-to-code-1">Code</a></p>
+                <div class="publication-item">
+                    <h3>Policy-Guided Diffusion</h3>
+                    <p><strong>Your Name</strong>, Collaborators</p>
+                    <p><em>RLC 2024 - NeurIPS 2023 Workshop on Robot Learning</em> | <a href="link-to-paper-1">paper</a></p>
                 </div>
-            </div>
 
-            <div class="paper-item">
-                <img src="images/paper2.jpg" alt="Paper Image 2">
-                <div class="paper-info">
+                <div class="publication-item">
+                    <h3>Discovering Temporally-Aware Reinforcement Learning Algorithms</h3>
+                    <p><strong>Your Name</strong>, Collaborators</p>
+                    <p><em>ICLR 2024</em> | <a href="link-to-paper-2">paper</a></p>
+                </div>
+
+                <div class="publication-item">
                     <h3>Discovering General Reinforcement Learning Algorithms with Adversarial Environment Design</h3>
-                    <p>Matthew T. Jackson, Minqi Jiang, <strong>Your Name</strong>, Risto Vuorio, Chris Lu, Gregory Farquhar, Shimon Whiteson, Jakob Foerster</p>
-                    <p><em>Advances in Neural Information Processing Systems (NeurIPS), 2023</em></p>
-                    <p><a href="link-to-paper-2">Paper</a> | <a href="link-to-code-2">Code</a></p>
+                    <p><strong>Your Name</strong>, Collaborators</p>
+                    <p><em>NeurIPS 2023</em> | <a href="link-to-paper-3">paper</a></p>
                 </div>
-            </div>
-
-            <div class="paper-item">
-                <img src="images/paper3.jpg" alt="Paper Image 3">
-                <div class="paper-info">
-                    <h3>Human-Timescale Adaptation in an Open-Ended Task Space</h3>
-                    <p>Adaptive Agent Team, <strong>Your Name</strong>, et al.</p>
-                    <p><em>The International Conference on Machine Learning (ICML), 2023 (Oral)</em></p>
-                    <p><a href="link-to-paper-3">Paper</a> | <a href="link-to-website-3">Website</a> | <a href="link-to-news-3">New Scientist</a></p>
-                </div>
-            </div>
-        </section>
-
+            </section>
+        </main>
     </div>
 
 </body>
