@@ -71,32 +71,33 @@ h2 {
 }
 
 .publication-img {
-    width: 100px; /* Image size */
+    width: 80px; /* Image size */
     height: auto;
     margin-right: 15px; /* Space between image and text */
+    object-fit: cover; /* Ensures the image fits nicely */
 }
 
 .publication-info {
-    max-width: 90%; /* Ensure the publication text wraps well */
+    max-width: calc(100% - 100px); /* Ensure text wraps well without overlapping the image */
 }
 
 .publication-item h3 {
     margin: 0;
-    font-size: 1.1rem; /* Smaller font size for publication titles */
+    font-size: 1rem; /* Smaller font size for publication titles */
     font-weight: bold;
     color: #030303;
 }
 
 .publication-item p {
     margin: 3px 0; /* Reduce margin between paragraphs */
-    font-size: 0.9rem;
+    font-size: 0.85rem; /* Slightly smaller text */
     color: #555; /* Lighter color for less emphasis */
 }
 
 .publication-item a {
     text-decoration: none;
     color: #0066cc;
-    font-size: 0.9rem; /* Smaller link text */
+    font-size: 0.85rem; /* Smaller link text */
 }
 
 .publication-item a:hover {
