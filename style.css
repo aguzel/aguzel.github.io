@@ -1,6 +1,6 @@
 /* General Styling */
 body {
-    font-family: 'Monospace', sans-serif;
+    font-family: 'Monospace', monospace;
     margin: 0;
     padding: 0;
     background-color: #f7f7f7;
@@ -17,7 +17,12 @@ body {
 /* Sidebar (Left Column) */
 .sidebar {
     width: 30%;
-    padding-right: 20px;
+    text-align: center; /* Centering the name, image, and links */
+}
+
+.sidebar h2 {
+    font-size: 1.75rem; /* Adjust name font size */
+    margin-bottom: 10px;
 }
 
 .sidebar img {
@@ -60,14 +65,25 @@ h2 {
 
 /* Publications Section */
 .publication-item {
+    display: flex; /* Make image and text side by side */
+    align-items: flex-start; /* Align text with the top of the image */
     margin-top: 15px;
+}
+
+.publication-img {
+    width: 100px; /* Image size */
+    height: auto;
+    margin-right: 15px; /* Space between image and text */
+}
+
+.publication-info {
+    max-width: 90%; /* Ensure the publication text wraps well */
 }
 
 .publication-item h3 {
     margin: 0;
     font-size: 1.1rem; /* Smaller font size for publication titles */
     font-weight: bold;
-    font-style:arial;
     color: #030303;
 }
 
