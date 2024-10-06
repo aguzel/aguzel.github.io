@@ -1,0 +1,83 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.profile-photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.name-contact {
+    margin-left: 20px;
+}
+
+.name-contact h1 {
+    margin: 0;
+}
+
+.name-contact p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+}
+
+.name-contact a {
+    text-decoration: none;
+    color: #333;
+}
+
+.name-contact a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+.about h2 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.about p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* News Section */
+.news h2 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.news ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news ul li {
+    padding: 10px 0;
+}
+
+.news ul li strong {
+    color: #333;
+    font-weight: bold;
+}
