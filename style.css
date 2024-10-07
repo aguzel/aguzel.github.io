@@ -12,6 +12,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
 }
 
 /* Sidebar (Left Column) */
@@ -48,7 +49,6 @@ body {
     width: 70%;
 }
 
-/* Section Headings */
 h2 {
     font-size: 1.25rem; /* Smaller font size for section headings */
     font-weight: bold;
@@ -112,4 +112,35 @@ hr {
 /* Underline author name */
 .author-name {
     text-decoration: underline; /* This will underline your name */
+}
+
+/* Media Query for Smaller Screens (phones, etc.) */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack sidebar and main content vertically */
+        padding: 10px;
+    }
+
+    .sidebar {
+        width: 100%; /* Sidebar takes full width */
+        padding-right: 0;
+        margin-bottom: 20px; /* Space between sidebar and main content */
+    }
+
+    .main-content {
+        width: 100%; /* Main content takes full width */
+    }
+
+    .publication-item {
+        flex-direction: column; /* Stack image and text vertically for small screens */
+    }
+
+    .publication-img {
+        width: 100px; /* Slightly larger image for better visibility on small screens */
+        margin-bottom: 10px;
+    }
+
+    .publication-info {
+        max-width: 100%;
+    }
 }
