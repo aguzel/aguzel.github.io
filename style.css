@@ -108,3 +108,8 @@ h2 {
 hr {
     display: none; /* Hides any <hr> elements */
 }
+
+/* Underline author name */
+.author-name {
+    text-decoration: underline; /* This will underline your name */
+}
